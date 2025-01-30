@@ -30,59 +30,11 @@ Change UI colors, themes, and assistant voice.
 Select different AI avatars or effects.
 Would you like me to design a UI layout or provide a code implementation for any part of this?
 
-# HOW TO RUN
-To run your Jarvis UI React project, follow these steps:
-
-1. Install Dependencies
-Ensure you have Node.js and npm installed. Then, install required dependencies.
-
-If you haven't initialized a React project:
-Run this to create a new Next.js project:
-
-sh
-Copy
-Edit
-npx create-next-app@latest jarvis-ui
-cd jarvis-ui
-Then, install required dependencies.
-
-2. Install Required Dependencies
-Run the following command in your project directory:
-
-sh
-Copy
-Edit
-npm install react-speech-recognition axios html2canvas date-fns framer-motion lucide-react
-3. Add Missing Dependencies
-Your error mentions a missing react-speech-recognition. Install it using:
-
-sh
-Copy
-Edit
-npm install react-speech-recognition
-4. Start the Development Server
-Run:
-
-sh
-Copy
-Edit
-npm run dev
-This will start a local server at http://localhost:3000/ where you can test your Jarvis UI.
-
-5. Test Voice Commands
-Make sure your browser allows microphone access. If the voice recognition doesn’t work:
-
-Try running the app in Google Chrome.
-Check microphone permissions.
-Restart the app.
-6. Build for Production (Optional)
-To create an optimized build:
-
-sh
-Copy
-Edit
-npm run build
-npm run start
+# Notes:
+Replace YOUR_OPENWEATHERMAP_API_KEY and YOUR_NEWS_API_KEY with your actual API keys.
+The listening feature runs in the background, so it won't block the UI.
+You can extend the command processing logic to add more features as per your original React version.
+Let me know if you'd like further assistance or modifications!
 
 
 
