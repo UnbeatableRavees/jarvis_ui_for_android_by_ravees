@@ -1,4 +1,4 @@
-# jarvis_ui_for_android_by_ravees
+# jarvis_ui_by_ravees
 # MADE BY RAVEES 
 # REMEMBER RAVEES 
 
